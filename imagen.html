@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMAGEN - Crear videos e I.A.</title>
     <style>
+        /* Estilos anteriores se mantienen igual hasta .card */
         * {
             margin: 0;
             padding: 0;
@@ -54,7 +55,6 @@
         }
 
         .card {
-            background: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             overflow: hidden;
             transition: transform 0.3s ease;
@@ -67,22 +67,52 @@
 
         .card a {
             text-decoration: none;
-            color: inherit;
             display: block;
             padding: 20px;
             text-align: center;
+            height: 100%;
         }
 
+        /* Nuevos estilos para los colores de las tarjetas */
+        .card:nth-child(1) { background: #FF6B6B; }
+        .card:nth-child(1) a { color: white; }
+
+        .card:nth-child(2) { background: #4ECDC4; }
+        .card:nth-child(2) a { color: black; }
+
+        .card:nth-child(3) { background: #45B7D1; }
+        .card:nth-child(3) a { color: white; }
+
+        .card:nth-child(4) { background: #96CEB4; }
+        .card:nth-child(4) a { color: black; }
+
+        .card:nth-child(5) { background: #D4A5A5; }
+        .card:nth-child(5) a { color: black; }
+
+        .card:nth-child(6) { background: #9B59B6; }
+        .card:nth-child(6) a { color: white; }
+
+        .card:nth-child(7) { background: #3498DB; }
+        .card:nth-child(7) a { color: white; }
+
+        .card:nth-child(8) { background: #F1C40F; }
+        .card:nth-child(8) a { color: black; }
+
+        .card:nth-child(9) { background: #E74C3C; }
+        .card:nth-child(9) a { color: white; }
+
+        .card:nth-child(10) { background: #2ECC71; }
+        .card:nth-child(10) a { color: white; }
+
         .card h2 {
-            color: #333;
             font-size: 1.2rem;
             margin-bottom: 10px;
         }
 
         .card p {
-            color: #666;
             font-size: 0.9rem;
             line-height: 1.4;
+            opacity: 0.9;
         }
 
         @media (max-width: 768px) {
@@ -110,70 +140,70 @@
     <div class="container">
         <div class="grid-container">
             <div class="card">
-                <a href="https://es.pinterest.com/imagif55/">
+                <a href="https://es.pinterest.com/imagif55/" target="_blank">
                     <h2>Pinterest</h2>
                     <p>Imágenes y diseños inspiradores</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://pinterestdownloader.com/es">
+                <a href="https://pinterestdownloader.com/es" target="_blank">
                     <h2>Pinterest Downloader</h2>
                     <p>Descarga imágenes de Pinterest</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://pixabay.com/es/">
+                <a href="https://pixabay.com/es/" target="_blank">
                     <h2>Pixabay</h2>
                     <p>Banco de imágenes gratuitas</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://squoosh.app/">
+                <a href="https://squoosh.app/" target="_blank">
                     <h2>Squoosh</h2>
                     <p>Optimizador de imágenes</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://www.iloveimg.com/">
+                <a href="https://www.iloveimg.com/" target="_blank">
                     <h2>iLoveIMG</h2>
                     <p>Editor de imágenes online</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://labs.google/fx">
+                <a href="https://labs.google/fx" target="_blank">
                     <h2>Google Labs FX</h2>
                     <p>Efectos experimentales</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://app.leonardo.ai/">
+                <a href="https://app.leonardo.ai/" target="_blank">
                     <h2>Leonardo AI</h2>
                     <p>Generación de imágenes IA</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://perchance.org/ai-character-generator">
+                <a href="https://perchance.org/ai-character-generator" target="_blank">
                     <h2>AI Character Generator</h2>
                     <p>Generador de personajes</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://piclumen.com/app/image-generator/create">
+                <a href="https://piclumen.com/app/image-generator/create" target="_blank">
                     <h2>PicLumen</h2>
                     <p>Generador de imágenes</p>
                 </a>
             </div>
 
             <div class="card">
-                <a href="https://designer.microsoft.com/editor">
+                <a href="https://designer.microsoft.com/editor" target="_blank">
                     <h2>Microsoft Designer</h2>
                     <p>Editor de diseño profesional</p>
                 </a>
