@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGEN - Crear videos e I.A.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .page-header, .page-footer {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .home-button {
+                position: relative;
+                display: inline-block;
+                margin: 10px;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <a href="index.html" class="home-button">Inicio</a>
+        <h1>IMAGEN</h1>
+        <h2>Crear videos e I.A.</h2>
+    </header>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="card">
+                <a href="https://es.pinterest.com/imagif55/">
+                    <h2>Pinterest</h2>
+                    <p>Imágenes y diseños inspiradores</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://pinterestdownloader.com/es">
+                    <h2>Pinterest Downloader</h2>
+                    <p>Descarga imágenes de Pinterest</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://pixabay.com/es/">
+                    <h2>Pixabay</h2>
+                    <p>Banco de imágenes gratuitas</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://squoosh.app/">
+                    <h2>Squoosh</h2>
+                    <p>Optimizador de imágenes</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.iloveimg.com/">
+                    <h2>iLoveIMG</h2>
+                    <p>Editor de imágenes online</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://labs.google/fx">
+                    <h2>Google Labs FX</h2>
+                    <p>Efectos experimentales</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://app.leonardo.ai/">
+                    <h2>Leonardo AI</h2>
+                    <p>Generación de imágenes IA</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://perchance.org/ai-character-generator">
+                    <h2>AI Character Generator</h2>
+                    <p>Generador de personajes</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://piclumen.com/app/image-generator/create">
+                    <h2>PicLumen</h2>
+                    <p>Generador de imágenes</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://designer.microsoft.com/editor">
+                    <h2>Microsoft Designer</h2>
+                    <p>Editor de diseño profesional</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <p>Creado por #imagif</p>
+        <p>email: imagenesgifs@gmail.com</p>
+    </footer>
+</body>
+</html>
